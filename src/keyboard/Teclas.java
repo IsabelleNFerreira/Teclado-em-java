@@ -1,8 +1,6 @@
 
-// T136
-// ANA FLAVIA PIERROUT DA SILVA   MATRICULA: 2019200768
-// ISABELLE NUNES FERREIRA       MATRICULA: 2019200769
-// AV2 - PROGRAMAÇÃO ORIENTADA A OBJETOS
+// ISABELLE NUNES FERREIRA
+// ANA FLAVIA PIERROUT DA SILVA
 
 
 package keyboard;
@@ -18,9 +16,9 @@ public class Teclas extends KeyAdapter {
 	
 	private JFrame Principal = new JFrame("~*~* Teclado Virtual *~*~");
 	private JLabel label = new JLabel ("Digite o texto usando o seu teclado. A teclas que você selecionar serão sinalizadas.");
-	private JLabel label2 = new JLabel ("Obs: Não ocorrerá nenhuma ação caso clique nas teclas utilizando o mouse.");
+	private JLabel label2 = new JLabel ("Obs: Nâo ocorrerá nenhuma ação caso clique nas teclas utilizando o mouse.");
 	private JLabel label3 = new JLabel ("Este teclado virtual te ajudará a praticar a digitação sem olhar para o teclado fisico.");
-	private JLabel label4 = new JLabel ("Digite o pangrama na caixa de texto abaixo, após dar um clique na mesma, visualizando ao final um relatório sobre seu desempenho!");
+	private JLabel label4 = new JLabel ("Digite o pangrama na caixa de texto abaixo, após dar um clique na mesma, visualizando ao final informações sobre seu desempenho!");
 	private JLabel label5 = new JLabel ("> Lembre-se de clicar a tecla ENTER ao fim da frase! <");
 	
 	// Caixa de texto
@@ -82,7 +80,7 @@ public class Teclas extends KeyAdapter {
 	private JButton j = new JButton("J");
 	private JButton k = new JButton("K");
 	private JButton l = new JButton("L");
-	private JButton ç = new JButton("Ç");
+	private JButton ç = new JButton("ç");
 	private JButton til = new JButton("~");
 	private JButton chave_dir = new JButton("]");
 	private JButton enter = new JButton("Enter");
@@ -98,12 +96,12 @@ public class Teclas extends KeyAdapter {
 	private JButton virgula = new JButton(",");
 	private JButton ponto = new JButton(".");
 	private JButton ponto_virgula = new JButton(";");
-	private JButton cima = new JButton("↑");
+	private JButton cima = new JButton("⇑");
 	
 	private JButton space = new JButton("Space");
-	private JButton esquerda = new JButton("←");
-	private JButton baixo = new JButton("↓");
-	private JButton direita = new JButton("→");
+	private JButton esquerda = new JButton("⇐");
+	private JButton baixo = new JButton("⇓");
+	private JButton direita = new JButton("⇒");
 	
 	
 	public Teclas(){
@@ -343,7 +341,7 @@ public class Teclas extends KeyAdapter {
 		caixa1.addKeyListener(new KeyAdapter() {
 		@Override
 		
-		// ação de clicar o botão e sinalizar as teclas
+		// açao de clicar o botão e sinalizar as teclas
 		
 		public void keyPressed(KeyEvent evt) {
 			int keyCode = evt.getKeyCode();
